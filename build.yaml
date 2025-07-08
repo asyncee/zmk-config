@@ -19,5 +19,5 @@
 #
 ---
 board: ["nrfmicro_13"]
-shield: ["kinesis_adv"]
+shield: ["kinesis_advantage"]
 # shield: [ "kinesis_adv_left", "kinesis_adv_right", "settings_reset" ]
