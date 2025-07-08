@@ -1,0 +1,6 @@
+if SHIELD_KINESIS_ADVANTAGE
+
+config ZMK_KEYBOARD_NAME
+    default "kinesis_adv"
+
+endif # SHIELD_KINESIS_ADVANTAGE
