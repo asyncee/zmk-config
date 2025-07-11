@@ -18,7 +18,9 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
-board: ["nrfmicro_13"]
-shield: ["kinesis_advantage"]
-snippet: zmk-usb-logging
-# shield: [ "kinesis_adv_left", "kinesis_adv_right", "settings_reset" ]
+# board: ["nrfmicro_13"]
+# shield: ["kinesis_advantage"]
+include:
+  - board: nrfmicro_13
+    shield: kinesis_advantage
+    snippet: zmk-usb-logging
