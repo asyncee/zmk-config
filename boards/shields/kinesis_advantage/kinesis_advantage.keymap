@@ -32,7 +32,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = < 20,21,22,23,24,25,32,33,34,35,36,37,48,49,50,51,52,53,62,63,64,65,66,67,78,79,80,81 >; // List of keys on the right side of the keyboard
+            hold-trigger-key-positions = <20>,<21>,<22>,<23>,<24>,<25>,<32>,<33>,<34>,<35>,<36>,<37>,<48>,<49>,<50>,<51>,<52>,<53>,<62>,<63>,<64>,<65>,<66>,<67>,<78>,<79>,<80>,<81>; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
         };
         hmr: home_row_mod_right {
@@ -43,7 +43,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = < 14,15,16,17,18,19,26,28,29,30,31,38,39,40,41,42,43,54,55,56,57,58,59,68,69,70,71 >; // List of keys on the left side of the keyboard
+            hold-trigger-key-positions = <14>,<15>,<16>,<17>,<18>,<19>,<26>,<28>,<29>,<30>,<31>,<38>,<39>,<40>,<41>,<42>,<43>,<54>,<55>,<56>,<57>,<58>,<59>,<68>,<69>,<70>,<71>; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
         hm: homerow_mods {
