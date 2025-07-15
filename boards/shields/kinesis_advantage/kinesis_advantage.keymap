@@ -14,6 +14,11 @@
 #define HM_D hml LCTRL D
 #define HM_F hml LSHIFT F
 
+#define HM_J hmr LSHIFT J
+#define HM_K hmr LCTRL K
+#define HM_L hmr LALT L
+#define HM_SE hmr LGUI SEMI
+
 / {
     behaviors {
         lrt: my_layer_tap {
@@ -74,7 +79,7 @@
                 // 26                                                                                                              // 32
                 &kp TAB    &kp Q     &kp W    &kp E    &kp R      &kp T                                                            &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
                 // 38                                                       // 44                                            // 48
-                &lrt FN ESC &HM_A &HM_S  &HM_D &HM_F      &kp G           &kp LCTRL &kp LALT &mo MOD     &kp RCTRL           &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
+                &lrt FN ESC &HM_A &HM_S  &HM_D &HM_F      &kp G           &kp LCTRL &kp LALT &mo MOD     &kp RCTRL           &kp H  &HM_J  &HM_K     &HM_L    &HM_SE &kp SQT
                 // 54                                                                       // 60                                  // 62
                 &kp LSHFT  &kp Z     &kp X    &kp C    &kp V      &kp B                     &kp HOME &kp PG_UP                     &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                            // 68                                         // 72                                                            // 78
