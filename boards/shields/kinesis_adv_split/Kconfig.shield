@@ -1,5 +1,0 @@
-config SHIELD_KINESIS_ADV_LEFT
-    def_bool $(shields_list_contains,kinesis_adv_left)
-
-config SHIELD_KINESIS_ADV_RIGHT
-    def_bool $(shields_list_contains,kinesis_adv_right)
