@@ -32,7 +32,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = < ... >; // List of keys on the right side of the keyboard
+            hold-trigger-key-positions = < 20,21,22,23,24,25,32,33,34,35,36,37,48,49,50,51,52,53,62,63,64,65,66,67,78,79,80,81 >; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
         };
         hmr: home_row_mod_right {
@@ -43,7 +43,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = < ... >; // List of keys on the left side of the keyboard
+            hold-trigger-key-positions = < 14,15,16,17,18,19,26,28,29,30,31,38,39,40,41,42,43,54,55,56,57,58,59,68,69,70,71 >; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
         hm: homerow_mods {
@@ -66,12 +66,18 @@
             display-name = "Base";
             bindings = <
                 // f keys row
+                // 0
                 &kp ESC   &kp F1    &kp F2   &kp F3   &kp F4     &kp F5 &kp F6 &kp F7 &kp F8                                      &kp F9 &kp F10 &kp F11  &kp F12  &kp PSCRN
                 // main rows
+                // 14                                                                                                              // 20
                 &kp EQUAL  &kp N1    &kp N2   &kp N3   &kp N4     &kp N5                                                           &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
+                // 26                                                                                                              // 32
                 &kp TAB    &kp Q     &kp W    &kp E    &kp R      &kp T                                                            &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
+                // 38                                                       // 44                                            // 48
                 &lrt FN ESC &HM_A &HM_S  &HM_D &HM_F      &kp G           &kp LCTRL &kp LALT &mo MOD     &kp RCTRL           &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
+                // 54                                                                       // 60                                  // 62
                 &kp LSHFT  &kp Z     &kp X    &kp C    &kp V      &kp B                     &kp HOME &kp PG_UP                     &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+                           // 68                                         // 72                                                            // 78
                            &kp GRAVE &kp BSLH &kp LEFT &kp RIGHT         &kp SPACE &kp DEL  &kp END  &kp PG_DN &kp ENTER &kp BSPC         &kp UP &kp DOWN  &kp LBKT &kp RBKT
             >;
 	    };
