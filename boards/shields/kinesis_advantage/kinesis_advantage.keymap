@@ -80,11 +80,11 @@
                 // 26                                                                                                              // 32
                 &kp TAB    &kp Q     &kp W    &kp E    &kp R      &kp T                                                            &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
                 // 38                                                       // 44                                            // 48
-                &kp LGUI &HM_A &HM_S  &HM_D &HM_F      &kp G           &kp LCTRL &kp LALT &mo MOD     &kp RCTRL           &kp H  &HM_J  &HM_K     &HM_L    &HM_SE &kp SQT
+                &kp LGUI &HM_A &HM_S  &HM_D &HM_F      &kp G           &kp LCTRL &kp LALT &mo MOD     &kp RCTRL           &kp H  &HM_J  &HM_K     &HM_L    &HM_SE &kp ENTER
                 // 54                                                                       // 60                                  // 62
                 &kp LSHFT  &kp Z     &kp X    &kp C    &kp V      &kp B                     &kp HOME &kp PG_UP                     &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &mt RSHFT BSPC
                            // 68                                         // 72                                                            // 78
-                           &kp GRAVE &kp BSLH &kp LEFT &kp RIGHT         &kp SPACE &kp ENTER  &kp END  &kp PG_DN &lrt FN DEL &kp ESC         &kp UP &kp DOWN  &kp LBKT &kp RBKT
+                           &kp GRAVE &kp BSLH &kp LEFT &kp RIGHT         &kp SPACE &kp SQT  &kp END  &kp PG_DN &lrt FN DEL &kp ESC         &kp UP &kp DOWN  &kp LBKT &kp RBKT
             >;
 	    };
 	    fn {
