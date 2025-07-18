@@ -84,7 +84,7 @@
                 // 54                                                                       // 60                                  // 62
                 &kp LSHFT  &kp Z     &kp X    &kp C    &kp V      &kp B                     &kp HOME &kp PG_UP                     &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp BSPC
                            // 68                                         // 72                                                            // 78
-                           &kp GRAVE &kp BSLH &kp LEFT &kp RIGHT         &kp SPACE &kp ENTER  &kp END  &kp PG_DN &lrt FN DEL &kp ESC         &kp UP &kp DOWN  &kp LBKT &kp RBKT
+                           &kp GRAVE &kp BSLH &kp LEFT &kp RIGHT         &kp SPACE &kp ENTER  &kp END  &kp PG_DN &lrt FN DEL &kp ESC         &kp DOWN &kp UP  &kp LBKT &kp RBKT
             >;
 	    };
 	    fn {
